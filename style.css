@@ -1,0 +1,106 @@
+/* Write some CSS below */
+body {
+  background-color: #F7F9FC;
+  font-size: 18px;
+  color: #595F7B;
+  font-family: 'Lora';
+}
+
+h1, h2 {
+  font-family: 'Roboto';
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 24px;
+  color: #91CC95;
+  font-weight: 600;
+}
+
+a {
+ text-decoration: none;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 40px 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #6C72DA;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+#introduction p {
+  margin-bottom: 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline li i {
+  font-size: 60px;
+  color: black;
+  margin: 0 5px;
+}
+
+.list-inline li i:hover {
+  opacity: 0.7;
+}
+
+#mon-image {
+  transition: 0.5s;
+}
+
+#mon-image:hover {
+  transform: scale(1.5);
+}
+
+.btn-blue {
+  color: white;
+  background-color: #6C72DA;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  box-shadow: 10px 10px 0 greenyellow;
+  transition: 0.5s;
+  display: inline-block;
+
+}
+
+.btn-blue:hover {
+  transform: translate(10px, 10px);
+  box-shadow: 0px 0px 0 greenyellow;
+
+}
